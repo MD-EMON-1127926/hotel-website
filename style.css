@@ -1,0 +1,378 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.nav{
+    height: 58px;
+    background-color: #F37000;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+position: fixed;
+top: 0;
+width: 100%;
+}
+.nav-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:45%;
+}
+
+.logo{
+    background: url(logo_index_top.png);
+    background-size: cover;
+    height: 33px;
+    width:119px;
+}
+.email{
+    height: 50px;
+    width: 190px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.password{
+    height: 50px;
+    width: 190px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.login{
+    width: 70px;
+    height: 40px;
+    background: none;
+    border:1px solid white;
+    color: white;
+font-size: .85rem;
+font-weight: 700;
+border-top-left-radius: 5px;
+border-bottom-left-radius: 5px;
+}
+.drop{
+    height: 40px;
+    width: 30px;
+    background: none;
+    border: 1px solid white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: white;
+   border-left: none;
+   margin-left: -10px;
+}
+.sign{
+    height: 40px;
+    width: 80px;
+    color: white;
+    background: none;
+    border-radius: 5px;
+    border: 1px solid white;
+    font-size: .85rem;
+    font-weight: 700;
+}
+.nav-option{
+    width: 20%;
+}
+
+.option{
+    width: 80px;
+    height: 40px;
+    background:none;
+    border-radius: 5px;
+    border: 1px solid white;
+    color: white;
+    font-size: .9rem;
+    float:right;
+    
+}
+.option option {
+    background-color: black;
+}
+
+
+/** header End **/
+
+
+.hospitality-section{
+    background: url(homepicture-1200px_2-min.jpg);
+    height: 1100px;
+    background-size: cover;
+    text-align: center;
+}
+.overlap{
+    background-color: rgba(0,0,0,.4);
+    height: 1100px;
+}
+.hospital{
+   padding-top: 200px;
+}
+.hospital h1{
+    color: #ffffff;
+    font-size: 70px;
+    width: 950px;
+    margin: 0 auto;
+}
+.hospital button{
+    width: 180px;
+    height: 55px;
+   font-size: 20px;
+   color: #ffffff;
+   background-color: #F37000;
+   border: none;
+   margin-top: 30px;
+   border-radius: 5px;
+   font-family: 700;
+}
+
+.hospital button:hover{
+    opacity: .7;
+}
+
+.hospital h5{
+    color: #ffffff;
+    font-size: 1rem;
+    font-family: 700;
+    width: 650px;
+    margin: 0 auto;
+    line-height: 26px;
+    margin-top: 20px;
+}
+
+
+/** hospitality section End **/
+
+/** welcome section start **/
+
+.welcome-section{
+    background-color:#FF8800;
+    height: 620px;
+    text-align: center;
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+}
+.welcome{
+    font-size: 64px;
+    color: #ffffff;
+    padding-top: 150px;
+}
+.wel{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 50px;
+    
+}
+
+.host{
+    color: #ffffff;
+}
+
+.host i{
+    font-size: 60px;
+}
+.host h2{
+    font-size:30px;
+    padding-bottom: 20px;
+}
+.host p{
+    font-size: 16px;
+    width: 210px;
+    line-height: 25px;
+}
+
+/** welcome section End **/
+
+
+/** find section start **/
+.find-section{
+    background: url(homepicture-1200px_3-min.jpg);
+    height: 1100px;
+    background-size: cover;
+    text-align: center;
+}
+
+.findtext h1{
+    color: #ffffff;
+    font-size: 60px;
+    position: relative;
+    top: 200px;
+}
+.find-overlap{
+    background-color: rgba(0,0,0,.4);
+    height: 1100px;
+}
+
+/** find section End **/
+
+/** statistic section start **/
+
+.statistic-section{
+    background-color:#FF8800;
+    height:560px;
+    text-align: center;
+    border-top: 4px solid #ffffff;
+    border-bottom: 4px solid #ffffff;
+}
+
+.statistic-text{
+    color: #ffffff;
+    font-size: 64px;
+    padding-top: 100px;
+}
+
+.statistic-one{
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #ffffff;
+    
+    margin: 0 auto;
+}
+
+.country{
+    
+    margin-top: 50px;
+}
+.country i{
+font-size: 50px;
+
+}
+.country h2{
+    font-size:38px;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+    
+}
+.country h4{
+    font-size: 20px;
+    width: 70px;
+}
+
+/** statistic section End **/
+
+
+/** world Section Start **/
+
+.world-section{
+    background: url(homepicture-1200px_1-min.jpg);
+    height: 1100px;
+    background-size: cover;
+    color: #ffffff;
+    
+}
+
+.world-overlap{
+    height: 1100px;
+    background-color: rgba(0,0,0,.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.world-text{
+    align-items: center;
+    margin-left: 150px;
+}
+.world-text h1{
+    font-size: 65px;
+    line-height:120px;
+    margin: 0 auto;
+    
+}
+.world-text p{
+    font-size: 16px;
+    font-weight: 700;
+}
+.world-box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.input-box1 button{
+    height: 48px;
+    width: 55px;
+    border: none;
+    padding: 5px 0;
+}
+.input-box1 input{
+    width: 500px;
+    height: 48px;
+    border: none;
+    font-size: 1rem;
+    margin: 0 auto;
+   
+}
+.input-box1{
+    height: 48px;
+    
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 20px;
+}
+ .input-box1 .btn1{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.input-box1 .btn2{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.input-box1 button i{
+    font-size: 20px;
+}
+.btn1{
+    color: #FF8800;
+}
+.btn2{
+    color: #ffffff;
+    background-color: #F37000;
+}
+
+.world-box1{
+    margin-top: 30px;
+}
+.world-input p{
+font-size: 16px;
+font-weight: bold;
+}
+
+.btn2:hover{
+    opacity: .7;
+}
+
+
+/*** world section  End **/
+
+
+/** footer start **/
+
+footer{
+    margin-top: -50px;
+    height: 50px;
+    color: #ffffff;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+footer p{
+    width: 600px;
+    font-size: 11px;
+    margin: 0 auto;
+}
+
+
+/***footer End**/
